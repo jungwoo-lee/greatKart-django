@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/GreatKart.iml" filepath="$PROJECT_DIR$/GreatKart.iml" />
+      <module fileurl="file://$PROJECT_DIR$/greatKart.iml" filepath="$PROJECT_DIR$/greatKart.iml" />
     </modules>
   </component>
 </project>

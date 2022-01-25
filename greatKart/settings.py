@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/3.1/ref/settings/
 """
 
 from pathlib import Path
+from django.contrib.messages import constants as messages
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve(strict=True).parent.parent
@@ -120,11 +121,24 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
 STATIC_URL = '/static/'
-STATIC_ROOT = BASE_DIR /'static'
+STATIC_ROOT = BASE_DIR / 'static'
 STATICFILES_DIRS = [
     'greatKart/static',
 ]
 
 # media files configuration
 MEDIA_URL = '/media/'
-MEDIA_ROOT = BASE_DIR /'media'
+MEDIA_ROOT = BASE_DIR / 'media'
+
+MESSAGE_TAGS = {
+    messages.ERROR: 'danger',
+}
+
+
+# SMTP Configuration
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_PORT = 587
+EMAIL_HOST_USER = 'jungwoo0618.11@gmail.com'
+EMAIL_HOST_PASSWORD = '6791573g'
+EMAIL_USE_TLS = True
+
