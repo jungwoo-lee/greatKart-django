@@ -2,16 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="53099417-03a6-416d-9a86-f741a0a7a640" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/orders/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orders/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/orders/order_complete.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/orders/order_received_email.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/orders/payments.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.ebextensions/django.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.env-sample" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/greatKart/static/css/custom.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/accounts/change_password.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/accounts/edit_profile.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/accounts/my_orders.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/accounts/order_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/includes/dashboard_sidebar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/greatKart/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/greatKart/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/greatKart/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/greatKart/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/accounts/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/accounts/dashboard.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/store/checkout.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/store/checkout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/includes/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/includes/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/store/product_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/store/product_detail.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +106,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1643106707401</updated>
-      <workItem from="1643106709069" duration="28938000" />
+      <workItem from="1643106709069" duration="48324000" />
     </task>
     <servers />
   </component>
